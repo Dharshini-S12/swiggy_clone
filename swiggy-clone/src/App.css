@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 *{
   padding: 0;
   margin: 0;
@@ -5,10 +6,13 @@
 body{
   height: 100%;
   color: #282c3f;
-  /*padding: 0 20px;
-  max-width: 1250px;
-  margin: 0 auto;*/
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+a{
+  color: #282c3f;
+}
+a:hover{
+  color: rgb(245, 103, 9);
 }
 nav{
   box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
@@ -19,6 +23,7 @@ nav{
   height: 80px;
   background-color: #fff;
   padding: 0 20px;
+  display: flex;
 }
 .nav-items-left{
   display: flex;
@@ -26,9 +31,57 @@ nav{
   justify-content: flex-start;
   list-style: none;
   gap: 0.5rem;
+  padding: 20px ;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-size: 14px;
 }
 .logo{
   height: 49px;
 }
+.nav-items{
+  padding-top: 10px;
+  text-underline-offset: 0.5rem;
+}
+.nav-items-1{
+  padding-top: 10px;
+}
+.nav-items-1 a{
+  text-decoration: none;
+  color: rgb(135, 133, 133);
+}
+.nav-items-1 a:hover{
+  color: rgb(173, 169, 169);
+}
+.arrow-down{
+  height: 22px;
+}
+.nav-items-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  gap: 3.5rem;
+  padding: 20px ;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.nav-items-2{
+  padding-top: 10px;
+}
+.nav-items-2 a{
+  text-decoration: none;
+}
+.nav-items-right-container{
+  display: flex;
+  gap: 0.5rem;
+}
+.image{
+  height: 18px;
+  padding-top: 5px;
+}
+
+
 
 
