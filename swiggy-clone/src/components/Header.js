@@ -51,8 +51,6 @@ function Header() {
                         </div>
                     </a>
                 </li>
-                
-                
             </ul>  
         </nav>
     </div>

@@ -14,6 +14,7 @@ a{
 a:hover{
   color: rgb(245, 103, 9);
 }
+/*navigation-starts*/
 nav{
   box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
   position: fixed;
@@ -81,6 +82,35 @@ nav{
   height: 18px;
   padding-top: 5px;
 }
+/*navigation ends*/
+/*body-starts*/
+.body-container{
+  
+  background: #fff;
+}
+.body-title{
+  color: black;
+  padding-top: 110px;
+  max-width: 1080px;
+  margin: 0 auto;
+  font-size: 22px;
+}
+div.container-1 {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+div.container-1 img {
+  padding: 10px;
+  padding-top: 15px;
+}
+.div.container-1 img::-webkit-scrollbar{
+  display: none;
+}
+
+
 
 
 
