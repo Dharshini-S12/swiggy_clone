@@ -3,24 +3,13 @@ import React from 'react'
 function Header() {
   return (
     <div>
-        <nav id="desktop-nav">
-        <div>
-            <ul class="nav-links-left">
-                <li><img src='https://www.swiggy.com/'></img></li>
-                <li><a >Orders</a></li>
-                <li><a></a></li>
+        <nav>
+            <ul className='nav-items-left'>
+                <a href=''><img className='logo' src='https://th.bing.com/th/id/OIP.zeYbojw3hyzUz8DIzfVnagHaEK?rs=1&pid=ImgDetMain'></img></a>
+                <li><a>Orders</a></li>
+                <li><a>Delhi,India</a></li>
             </ul>
-        </div>
-        <div>
-            <ul class="nav-links">
-                <li><a>Search</a></li>
-                <li><a>Offers</a></li>
-                <li><a>Help</a></li>
-                <li><a>Profile</a></li>
-                <li><a>Cart</a></li>
-            </ul>
-        </div>
-    </nav>   
+        </nav>
     </div>
   )
 }
