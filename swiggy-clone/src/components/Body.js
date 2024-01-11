@@ -11,6 +11,17 @@ function Body() {
             <a href=''><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_850,h_504/rng/md/carousel/production/7f77d34fccef6a22db009b5281f22ae2"  width="425" height="252"></img></a>
         </div>
        </div>
+       <h1 className='body-title-2'>Restaurants with online food delivery in Coimbatore</h1>
+       <div className='body-button'>
+        <button className='button-style'>Filter</button>
+        <button>Filter</button>
+        <button>Filter</button>
+        <button>Filter</button>
+        <button>Filter</button>
+        <button>Filter</button>
+        <button>Filter</button>
+        <button>Filter</button>
+       </div>
     </div>
   )
 }
