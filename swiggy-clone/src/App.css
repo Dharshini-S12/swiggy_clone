@@ -8,10 +8,10 @@ body{
   color: #282c3f;
   font-family: 'Poppins', sans-serif;
 }
-a{
+.nav-items-left-a{
   color: #282c3f;
 }
-a:hover{
+.nav-items-left-a:hover{
   color: rgb(245, 103, 9);
 }
 /*navigation-starts*/
@@ -107,9 +107,6 @@ div.container-1 img {
   padding: 10px;
   padding-top: 15px;
 }
-.div.container-1 img::-webkit-scrollbar{
-  display: none;
-}
 .body-title-2{
   color: black;
   padding-top: 15px;
@@ -124,7 +121,9 @@ div.container-1 img {
   margin: 0 auto;
   padding: 10px;
 }
-.button-style{
+.body-button-a{
+  color: black;
+  text-decoration: none;  
   justify-content: center;
   border-radius: 18px;
   background-color: rgb(255, 255, 255);
@@ -134,7 +133,87 @@ div.container-1 img {
   gap: 8px;
   box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
   transition: all 100ms ease-in 0s;
+  font-size: 12px;
 }
+.body-image-container-main{
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.body-image-container{
+  display: flex;
+  /*gap: 1rem;*/
+  max-width: 1080px;
+  width:255px ;
+  height: 280px;
+  margin: 0 auto;
+  padding: 10px; 
+  background-color: rgb(255, 255, 255);
+  transition: 0.3s ease;
+}
+.body-image-container:hover{   
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+
+}
+.body-image-container-1 {
+  position: relative;
+  text-align: center;
+  display: flex;
+  color: #fff;
+}
+.centered {
+  position: absolute;
+  top: 85%;
+  left: 0%;
+  width: 260px;
+  font-weight: 600;
+  font-size: 20px;
+  box-sizing: content-box;
+  /*background:  black;*/
+  background: linear-gradient(to top, #030b17 20%,#316ce000);
+  border-radius: 10px;
+  
+}
+.body-image-container-pic{
+  border-radius: 15px;
+  width: 260px;
+  height: 180px;
+}
+.body-image-container-2{
+  padding: 10px;
+  
+}
+.body-image-container-anchor{
+  text-decoration: none;
+  color: black;
+}
+.body-image-container-text{
+  font-size: 18px;
+  font-weight: 500;
+}
+.body-image-container-3{
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+  
+}
+.body-image-container-text-1{
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.body-image-container-text-2{
+  font-size: 14px;
+  font-weight: 350;
+  color: rgb(108, 107, 107);
+}
+
+
 
 
 
