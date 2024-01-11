@@ -136,9 +136,14 @@ div.container-1 img {
   font-size: 12px;
 }
 .body-image-container-main{
-  display: flex;
+  /*display: flex;
   flex-direction: row;
   gap: 0.4rem;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 10px;*/
+  display: flex;
+  gap: 1.5rem;
   max-width: 1080px;
   margin: 0 auto;
   padding: 10px;
@@ -146,10 +151,8 @@ div.container-1 img {
 .body-image-container{
   display: flex;
   /*gap: 1rem;*/
-  max-width: 1080px;
   width:255px ;
   height: 280px;
-  margin: 0 auto;
   padding: 10px; 
   background-color: rgb(255, 255, 255);
   transition: 0.3s ease;
