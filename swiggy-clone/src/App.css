@@ -280,6 +280,15 @@ div.container-1 img {
   box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
   font-size: 13.9px;
 }
+ .btn-btn{
+  gap: 1px;
+  border-radius: 18px;
+  border:none;
+}
+.btn-btn-ss{
+  color:  black;
+  font-size: 14.5px;
+}
 
 
 
