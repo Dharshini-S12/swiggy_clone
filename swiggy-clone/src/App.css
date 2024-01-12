@@ -25,6 +25,7 @@ nav{
   background-color: #fff;
   padding: 0 20px;
   display: flex;
+  z-index: 9999;
 }
 .nav-items-left{
   display: flex;
@@ -214,6 +215,70 @@ div.container-1 img {
   font-size: 14px;
   font-weight: 350;
   color: rgb(108, 107, 107);
+}
+.horizontal-tag{
+  /*width: 1000px;*/
+  max-width: 1180px;
+  margin-left: 230px;
+  margin-top: 40px;
+  /*color: rgb(255, 255, 255);*/
+  color: rgb(255, 255, 255);
+  
+}
+.body-title-3{
+  color: black;
+  padding-top: 50px;
+  max-width: 1080px;
+  margin: 0 auto;
+  font-size: 22px;
+}
+.resturant-container-main{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.resturant-container-main-items{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  padding-top: 10px;
+}
+.resturant-container-main-items-ancchor{
+  color: black;
+  text-decoration: none;  
+  justify-content: center;
+  
+  border-radius: 18px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(226, 226, 231);
+  padding: 15px 25px;
+  width: 230px;
+  
+  box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
+  font-size: 13.9px;
+}
+.arrow-down-1{
+  height: 20px;
+}
+.resturant-container-main-items-ancchor-1{
+  color: black;
+  font-weight: 550;
+  text-decoration: none;  
+  justify-content: center;
+  display: flex;
+
+  border-radius: 18px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(226, 226, 231);
+  padding: 13px 25px;
+  width: 230px;
+  
+  box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
+  font-size: 13.9px;
 }
 
 

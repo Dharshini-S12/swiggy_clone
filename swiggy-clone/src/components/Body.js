@@ -4,7 +4,7 @@ function Body() {
   return (
     <div className='body-container'>
       <h1 className='body-title'>Best Offers for You</h1>
-       <div className='image-cointainer-1'>
+      <div className='image-cointainer-1'>
           <div class="container-1">
             <a href=''><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_850,h_504/rng/md/carousel/production/63439465f0824c81088e0d8f00c24dd0"  width="425" height="252"></img></a>
             <a href=''><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_850,h_504/rng/md/carousel/production/3ab75a3a32fcdb221ac67d3cb5e493f6"  width="425" height="252"></img></a>
@@ -300,6 +300,234 @@ function Body() {
             </a>
         </div>
       </div>
+      <div className='body-image-container-main'>
+          <div className='body-image-container'>
+              <a href='' className='body-image-container-anchor'>
+              <div class="body-image-container-1">
+                  <img className='body-image-container-pic' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/47eabee7009164ca18a3ccf1dcc17377" ></img>
+                  <div class="centered">10% OFF UPTO ₹100</div>
+              </div>
+              <div className='body-image-container-2'>
+                  <span className='body-image-container-text'>Hotel Aryaas</span>
+                  <div className='body-image-container-3'>
+                      <img src='/images/star-inside-circle.png' width={19} height={21}></img> 
+                      <span className='body-image-container-text-1' >4.5 &#8226; 14mins</span><br></br>
+                  </div>
+                  <span className='body-image-container-text-2' >South Indian<br></br>Pollachi</span>
+              </div>
+              </a>
+          </div>
+        <div className='body-image-container'>
+            <a href='' className='body-image-container-anchor'>
+            <div class="body-image-container-1">
+              <img className='body-image-container-pic' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/f1bc9ddf53de574cdc35ab2f717df234" ></img>
+          
+            </div>
+            <div className='body-image-container-2'>
+              <span className='body-image-container-text'>Hotel Gowri KKrishna</span>
+              <div className='body-image-container-3'>
+                <img src='/images/star-inside-circle.png' width={19} height={21}></img> 
+                <span className='body-image-container-text-1' >4.3 &#8226; 18mins</span><br></br>
+              </div>
+              <span className='body-image-container-text-2' >South Indian,North Indian,..<br></br>Pollachi</span>
+            </div>
+            </a>
+        </div>
+        <div className='body-image-container'>
+            <a href='' className='body-image-container-anchor'>
+            <div class="body-image-container-1">
+              <img className='body-image-container-pic' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/b14cd9fc40129fcfb97aa7e621719d07" ></img>
+              <div class="centered">10% OFF UPTO ₹40</div>
+            </div>
+            <div className='body-image-container-2'>
+              <span className='body-image-container-text'>Madhava Multicusine...</span>
+              <div className='body-image-container-3'>
+                <img src='/images/star-inside-circle.png' width={19} height={21}></img> 
+                <span className='body-image-container-text-1' >4.6 &#8226; 18mins</span><br></br>
+              </div>
+              <span className='body-image-container-text-2' >South Indian,North Indian,..<br></br>Pollachi</span>
+            </div>
+            </a>
+        </div>
+        <div className='body-image-container'>
+            <a href='' className='body-image-container-anchor'>
+              <div class="body-image-container-1">
+                <img className='body-image-container-pic' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/uorbn09yih2szvmzvtql" ></img>
+                <div class="centered">50% OFF UPTO ₹100</div>
+              </div>
+              <div className='body-image-container-2'>
+                <span className='body-image-container-text'>Kwality Walls Frozen Dess..</span>
+                <div className='body-image-container-3'>
+                  <img src='/images/star-inside-circle.png' width={19} height={21}></img> 
+                  <span className='body-image-container-text-1' >4.6 &#8226; 16mins</span><br></br>
+                </div>
+                <span className='body-image-container-text-2' >Desserts, Ice Cream, Ice Cream...<br></br>Pollachi</span>
+              </div>
+            </a>
+        </div>
+      </div>
+      <div className='body-image-container-main'>
+          <div className='body-image-container'>
+              <a href='' className='body-image-container-anchor'>
+              <div class="body-image-container-1">
+                  <img className='body-image-container-pic' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/47eabee7009164ca18a3ccf1dcc17377" ></img>
+                  <div class="centered">10% OFF UPTO ₹100</div>
+              </div>
+              <div className='body-image-container-2'>
+                  <span className='body-image-container-text'>Hotel Aryaas</span>
+                  <div className='body-image-container-3'>
+                      <img src='/images/star-inside-circle.png' width={19} height={21}></img> 
+                      <span className='body-image-container-text-1' >4.5 &#8226; 14mins</span><br></br>
+                  </div>
+                  <span className='body-image-container-text-2' >South Indian<br></br>Pollachi</span>
+              </div>
+              </a>
+          </div>
+        <div className='body-image-container'>
+            <a href='' className='body-image-container-anchor'>
+            <div class="body-image-container-1">
+              <img className='body-image-container-pic' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/f1bc9ddf53de574cdc35ab2f717df234" ></img>
+          
+            </div>
+            <div className='body-image-container-2'>
+              <span className='body-image-container-text'>Hotel Gowri KKrishna</span>
+              <div className='body-image-container-3'>
+                <img src='/images/star-inside-circle.png' width={19} height={21}></img> 
+                <span className='body-image-container-text-1' >4.3 &#8226; 18mins</span><br></br>
+              </div>
+              <span className='body-image-container-text-2' >South Indian,North Indian,..<br></br>Pollachi</span>
+            </div>
+            </a>
+        </div>
+        <div className='body-image-container'>
+            <a href='' className='body-image-container-anchor'>
+            <div class="body-image-container-1">
+              <img className='body-image-container-pic' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/b14cd9fc40129fcfb97aa7e621719d07" ></img>
+              <div class="centered">10% OFF UPTO ₹40</div>
+            </div>
+            <div className='body-image-container-2'>
+              <span className='body-image-container-text'>Madhava Multicusine...</span>
+              <div className='body-image-container-3'>
+                <img src='/images/star-inside-circle.png' width={19} height={21}></img> 
+                <span className='body-image-container-text-1' >4.6 &#8226; 18mins</span><br></br>
+              </div>
+              <span className='body-image-container-text-2' >South Indian,North Indian,..<br></br>Pollachi</span>
+            </div>
+            </a>
+        </div>
+        <div className='body-image-container'>
+            <a href='' className='body-image-container-anchor'>
+              <div class="body-image-container-1">
+                <img className='body-image-container-pic' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/uorbn09yih2szvmzvtql" ></img>
+                <div class="centered">50% OFF UPTO ₹100</div>
+              </div>
+              <div className='body-image-container-2'>
+                <span className='body-image-container-text'>Kwality Walls Frozen Dess..</span>
+                <div className='body-image-container-3'>
+                  <img src='/images/star-inside-circle.png' width={19} height={21}></img> 
+                  <span className='body-image-container-text-1' >4.6 &#8226; 16mins</span><br></br>
+                </div>
+                <span className='body-image-container-text-2' >Desserts, Ice Cream, Ice Cream...<br></br>Pollachi</span>
+              </div>
+            </a>
+        </div>
+      </div>
+
+
+
+
+
+      <hr className='horizontal-tag'></hr>
+
+
+
+      <h1 className='body-title-3'>Best Places to Eat Across Cities</h1>
+      <div className='resturant-container-main'>
+        <div className='resturant-container-main-items'>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Banglore</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Jaipur</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Kolkata</a>
+        </div>
+        <div className='resturant-container-main-items'>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Pune</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Banglore</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Jaipur</a>
+        </div>
+        <div className='resturant-container-main-items'>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Mumbai</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Chennai</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Nagpur</a>
+        </div>
+        <div className='resturant-container-main-items'>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Delhi</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Chandigarh</a>
+          <a className='resturant-container-main-items-ancchor-1' href=''>
+            <div><span>Show more</span></div>
+            <div><img className='arrow-down-1' src='/images/down-arrow-1.png'></img></div>
+          </a>
+        </div>
+      </div>
+      <div className='resturant-container-main'>
+        <div className='resturant-container-main-items'>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Banglore</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Jaipur</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Kolkata</a>
+        </div>
+        <div className='resturant-container-main-items'>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Pune</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Banglore</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Jaipur</a>
+        </div>
+        <div className='resturant-container-main-items'>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Mumbai</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Chennai</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Nagpur</a>
+        </div>
+        <div className='resturant-container-main-items'>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Delhi</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Chandigarh</a>
+          <a className='resturant-container-main-items-ancchor-1' href=''>
+            <div><span>Show more</span></div>
+            <div><img className='arrow-down-1' src='/images/down-arrow-1.png'></img></div>
+          </a>
+        </div>
+      </div>
+      <div className='resturant-container-main'>
+        <div className='resturant-container-main-items'>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Banglore</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Jaipur</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Kolkata</a>
+        </div>
+        <div className='resturant-container-main-items'>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Pune</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Banglore</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Jaipur</a>
+        </div>
+        <div className='resturant-container-main-items'>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Mumbai</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Chennai</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Nagpur</a>
+        </div>
+        <div className='resturant-container-main-items'>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Delhi</a>
+          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Chandigarh</a>
+          <a className='resturant-container-main-items-ancchor-1' href=''>
+            <div><span>Show more</span></div>
+            <div><img className='arrow-down-1' src='/images/down-arrow-1.png'></img></div>
+          </a>
+        </div>
+      </div>
+      
+      
+      
+
+
+
+
+
+
+
+      
       
 
 
