@@ -22,6 +22,10 @@ function Body() {
           <a className='body-button-a' href=''>Rs.300-Rs.600</a>
           <a className='body-button-a' href=''>Less then Rs.300</a>
        </div>
+
+
+
+
       <div className='body-image-container-main'>
           <div className='body-image-container'>
               <a href='' className='body-image-container-anchor'>
@@ -461,39 +465,20 @@ function Body() {
         <div className='resturant-container-main-items'>
           <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Delhi</a>
           <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Chandigarh</a>
-          <button onClick='myfun()' className='btn-btn' id="btn--btn">
+          <div>
+          <button onClick={ShowName} className='btn-btn' id="btn--btn">
           <a className='resturant-container-main-items-ancchor-1' href=''>
             <div><span className='btn-btn-ss'>Show more</span></div>
             <div><img className='arrow-down-1' src='/images/down-arrow-1.png'></img></div>
           </a>
           </button>
+          </div>
         </div>
       </div>
-      <div className='resturant-container-main'>
-        <div className='resturant-container-main-items'>
-          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Banglore</a>
-          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Jaipur</a>
-          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Kolkata</a>
-        </div>
-        <div className='resturant-container-main-items'>
-          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Pune</a>
-          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Banglore</a>
-          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Jaipur</a>
-        </div>
-        <div className='resturant-container-main-items'>
-          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Mumbai</a>
-          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Chennai</a>
-          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Nagpur</a>
-        </div>
-        <div className='resturant-container-main-items'>
-          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Delhi</a>
-          <a className='resturant-container-main-items-ancchor' href=''>Best Restaurants in Chandigarh</a>
-          <a className='resturant-container-main-items-ancchor-1' href=''>
-            <div><span>Show more</span></div>
-            <div><img className='arrow-down-1' src='/images/down-arrow-1.png'></img></div>
-          </a>
-        </div>
-      </div>
+
+
+
+      
       
       
 
