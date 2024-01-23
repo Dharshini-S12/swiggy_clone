@@ -97,7 +97,7 @@ nav{
   font-size: 22px;
 }
 div.container-1 {
-  max-width: 1100px;
+  max-width: 1080px;
   margin: 0 auto;
   overflow: scroll;
   white-space: nowrap;
@@ -384,15 +384,60 @@ div.container-1 img {
 }
 .Footer-container-2{
   display: flex;
-  gap: 10rem;
+  gap: 5rem;
   padding-top: 30px ;
-  padding-bottom: 20px ;
+  padding-bottom: 115px ;
   padding-left: 380px;
   padding-right: 30px;
   background-color:black;
   color: #fff;
 }
-
+.Footer-container-2-items{
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.Footer-container-2-items-bold{
+  font-size: 23px;
+  font-weight: 600;
+}
+.Footer-items{
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.Footer-container-2-items-listed{
+  font-size: 15.5px;
+  max-width: 210px;
+  color: rgb(184, 184, 184);
+}
+.Footer-container-2-items-listed-1{
+  font-size: 14px;
+  max-width: 210px;
+  color: rgb(184, 184, 184);
+}
+.Footer-items-extra{
+  display: flex;
+  flex-direction: column;
+  gap: 3.1rem;
+}
+.Footer-button{
+  background: transparent;
+  color: rgb(184, 184, 184);
+  border: 1px solid rgb(54, 54, 54);
+  height: 35px;
+  width: 120px;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.arrow-down-2{
+  height: 18px;
+  margin-top: 4px;
+}
 
 
 

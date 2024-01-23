@@ -19,11 +19,49 @@ function Footer() {
           </div>
       </div>
       <div className='Footer-container-2'>
-        <div>Swiggy</div>
-        <div>Company</div>
-        <div>Contact us</div>
-        <div>We deliver to:</div>
+        <div className='Footer-items'>
+            <div className='Footer-container-2-items-bold'>Swiggy</div>
+            <div className='Footer-container-2-items-listed'>© 2023 Bundl Technologies Pvt. Ltd</div>
+        </div>
+        <div className='Footer-items'>
+            <div className='Footer-container-2-items'>Company</div>
+            <div className='Footer-container-2-items-listed-1'>About</div>
+            <div className='Footer-container-2-items-listed-1'>Careers</div>
+            <div className='Footer-container-2-items-listed-1'>Team</div>
+            <div className='Footer-container-2-items-listed-1'>Swiggy One</div>
+            <div className='Footer-container-2-items-listed-1'>Swiggy Instamart</div>
+            <div className='Footer-container-2-items-listed-1'>Swiggy Genie</div>
+        </div>
+        <div className='Footer-items-extra'>
+          <div className='Footer-items'>
+            <div className='Footer-container-2-items'>Contact us</div>
+            <div className='Footer-container-2-items-listed-1'>Help & Support</div>
+            <div className='Footer-container-2-items-listed-1'>Partner with us</div>
+            <div className='Footer-container-2-items-listed-1'>Ride with us</div>
+          </div>
+          <div className='Footer-items'>
+            <div className='Footer-container-2-items'>Legal</div>
+            <div className='Footer-container-2-items-listed-1'>Terms & Conditions</div>
+            <div className='Footer-container-2-items-listed-1'>Cookie Policy</div>
+            <div className='Footer-container-2-items-listed-1'>Privacy Policy</div>
+          </div>
+        </div>
+        <div className='Footer-items'>
+            <div className='Footer-container-2-items'>We deliver to:</div>
+            <div className='Footer-container-2-items-listed-1'>Bangalore</div>
+            <div className='Footer-container-2-items-listed-1'>Gurgaon</div>
+            <div className='Footer-container-2-items-listed-1'>Hyderabad</div>
+            <div className='Footer-container-2-items-listed-1'>Delhi</div>
+            <div className='Footer-container-2-items-listed-1'>Mumbai</div>
+            <div className='Footer-container-2-items-listed-1'>Pune</div>
+            <button className='Footer-button'>
+              <div className='Footer-container-2-items-listed-1'>589 cities</div>
+              <div><img className='arrow-down-2' src='/images/down-arrow-footer.png'></img></div>
+            </button>
+        </div>
+        
   
+
       </div>
     </div>
   )
