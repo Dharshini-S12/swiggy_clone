@@ -99,7 +99,7 @@ nav{
 div.container-1 {
   max-width: 1080px;
   margin: 0 auto;
-  overflow: scroll;
+  overflow-x: scroll;
   white-space: nowrap;
   scroll-behavior: smooth;
 }
@@ -107,6 +107,9 @@ div.container-1 {
 div.container-1 img {
   padding: 10px;
   padding-top: 15px;
+}
+.container-1 img ::-webkit-scrollbar{
+  display: none;
 }
 .body-title-2{
   color: black;
@@ -135,7 +138,7 @@ div.container-1 img {
   gap: 8px;
   box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
   transition: all 100ms ease-in 0s;
-  font-size: 12px;
+  font-size: 13px;
 }
 .body-image-container-main{
   /*display: flex;
@@ -175,9 +178,9 @@ div.container-1 img {
   position: absolute;
   top: 85%;
   left: 0%;
-  width: 260px;
+  width: 240px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   box-sizing: content-box;
   /*background:  black;*/
   background: linear-gradient(to top, #030b17 20%,#316ce000);
@@ -186,7 +189,7 @@ div.container-1 img {
 }
 .body-image-container-pic{
   border-radius: 15px;
-  width: 260px;
+  width: 240px;
   height: 180px;
 }
 .body-image-container-2{
@@ -220,13 +223,16 @@ div.container-1 img {
 /*Items start*/
 /*Restaurant start*/
 .horizontal-tag{
-  /*width: 1000px;*/
   max-width: 1180px;
   margin-left: 230px;
   margin-top: 40px;
-  /*color: rgb(255, 255, 255);*/
   color: rgb(255, 255, 255);
-  
+}
+.horizontal-tag1{
+  max-width: 1080px;
+  margin-left: 230px;
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
 }
 .body-title-3{
   color: black;

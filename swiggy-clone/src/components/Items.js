@@ -59,12 +59,12 @@ function Items() {
                 <div class="centered">50% OFF UPTO ₹100</div>
               </div>
               <div className='body-image-container-2'>
-                <span className='body-image-container-text'>Kwality Walls Frozen Dess..</span>
+                <span className='body-image-container-text'>Kwality Walls Dess..</span>
                 <div className='body-image-container-3'>
                   <img src='/images/star-inside-circle.png' width={19} height={21}></img> 
                   <span className='body-image-container-text-1' >4.6 &#8226; 16mins</span><br></br>
                 </div>
-                <span className='body-image-container-text-2' >Desserts, Ice Cream, Ice Cream...<br></br>Pollachi</span>
+                <span className='body-image-container-text-2' >Desserts, Ice Cream...<br></br>Pollachi</span>
               </div>
             </a>
           </div>
@@ -271,7 +271,7 @@ function Items() {
                   <img src='/images/star-inside-circle.png' width={19} height={21}></img> 
                   <span className='body-image-container-text-1' >4.6 &#8226; 16mins</span><br></br>
                 </div>
-                <span className='body-image-container-text-2' >Desserts, Ice Cream, Ice Cream...<br></br>Pollachi</span>
+                <span className='body-image-container-text-2' >Desserts, Ice Cream...<br></br>Pollachi</span>
               </div>
             </a>
         </div>
@@ -378,7 +378,7 @@ function Items() {
                 <img src='/images/star-inside-circle.png' width={19} height={21}></img> 
                 <span className='body-image-container-text-1' >4.3 &#8226; 18mins</span><br></br>
               </div>
-              <span className='body-image-container-text-2' >South Indian,North Indian,..<br></br>Pollachi</span>
+              <span className='body-image-container-text-2' >South Indian,North Indian..<br></br>Pollachi</span>
             </div>
             </a>
         </div>
@@ -410,7 +410,7 @@ function Items() {
                   <img src='/images/star-inside-circle.png' width={19} height={21}></img> 
                   <span className='body-image-container-text-1' >4.6 &#8226; 16mins</span><br></br>
                 </div>
-                <span className='body-image-container-text-2' >Desserts, Ice Cream, Ice Cream...<br></br>Pollachi</span>
+                <span className='body-image-container-text-2' >Desserts, Ice Cream...<br></br>Pollachi</span>
               </div>
             </a>
         </div>
