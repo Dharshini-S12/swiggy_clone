@@ -108,7 +108,7 @@ div.container-1 img {
   padding: 10px;
   padding-top: 15px;
 }
-.container-1 img ::-webkit-scrollbar{
+.container-1::-webkit-scrollbar{
   display: none;
 }
 .body-title-2{
