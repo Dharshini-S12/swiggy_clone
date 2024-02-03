@@ -220,6 +220,33 @@ div.container-1 img {
   font-weight: 350;
   color: rgb(108, 107, 107);
 }
+.wrapper{
+  max-width: 1080px;
+  /*padding: 5px;*/
+  margin: 0 auto;
+}
+.wrapper .carousel{
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.carousel img{
+  width: calc(100%/7);
+  height: 170px;
+}
+
+.wrapper .arrow{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 0.5rem;
+}
+.wrapper i{
+  background: rgb(225, 224, 224);
+  border-radius: 50%;
+  padding: 7px; 
+ 
+}
 /*Items start*/
 /*Restaurant start*/
 .horizontal-tag{
