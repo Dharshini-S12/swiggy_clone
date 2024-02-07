@@ -306,6 +306,26 @@ div.container-1 img {
   height: 18px;
   margin-top: 4px;
 }
+.slick-slide > 
+div{
+  margin: 0 10px;
+}
+.a{
+  max-width: 1080px;
+  margin: 0 auto;
+  
+}
+.b{
+  margin-top: 40px;
+}
+.pic{
+  height: 185px;
+  width: 180px;
+  border-radius: 1rem;
+}
+.anchorfood{
+  cursor: pointer;
+}
 .resturant-container-main-items-ancchor-1{
   color: black;
   font-weight: 550;
