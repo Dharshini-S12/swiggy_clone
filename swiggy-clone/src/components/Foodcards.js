@@ -13,7 +13,6 @@ const PrevArrow = (props) => {
         marginTop:"-130px", 
         marginLeft:"980px", 
         borderRadius:"1rem",
-        /*color:"black",*/
         backgroundColor:"url('/images/1.jpg')"
       }}
         onClick={onClick}
@@ -40,10 +39,10 @@ const PrevArrow = (props) => {
 function Foodcards() {
     var settings = {
         dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 6,
-        slidesToScroll: 1,
+        infinite: false,
+        speed: 700,
+        slidesToShow: 7,
+        slidesToScroll: 3,
         prevArrow: <PrevArrow />, 
         nextArrow: <NextArrow />, 
       };  

@@ -3,7 +3,7 @@ import React from 'react'
 function Restaurant() {
 
     function myFunction() {
-        document.getElementById('button-id').innerHTML="You clicked Me";
+        document.getElementById('button-id').innerHTML="Best Restaurants in Pune";
         var x = document.getElementById('myDIV');
         if (x.style.display === "block") {
           x.style.display = "none";
