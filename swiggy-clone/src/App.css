@@ -84,6 +84,7 @@ nav{
   padding-top: 5px;
 }
 /*navigation ends*/
+
 /*items-starts*/
 .body-container{
   
@@ -322,6 +323,7 @@ div{
   height: 175px;
   width: 140px;
   border-radius: 1rem;
+  display: block;
 }
 .anchorfood{
   cursor: pointer;
@@ -490,6 +492,34 @@ div{
 .arrow-down-2{
   height: 18px;
   margin-top: 4px;
+}
+
+
+@media only screen and (max-width : 600px){
+  /* Nanvigation-start */
+  .nav-items-right{
+    display: none;
+  }
+  .nav-items-left{
+    margin-left: -30px;
+  }
+  .logo{
+    
+    height: 39px;
+  }
+  /* Navigation-end */
+  /*Foodcards-start*/
+  .body-title{
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  .pic{
+    /* height: 175px;
+    width: 140px;
+    border-radius: 1rem; */
+    display: none;
+  }
+  /* Foodcards-end */
 }
 
 

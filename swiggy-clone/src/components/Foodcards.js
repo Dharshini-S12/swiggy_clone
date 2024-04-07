@@ -13,7 +13,7 @@ const PrevArrow = (props) => {
         marginTop:"-130px", 
         marginLeft:"980px", 
         borderRadius:"1rem",
-        backgroundColor:"url('/images/1.jpg')"
+        backgroundColor:"url('/images/1.jpg')",
       }}
         onClick={onClick}
       />
