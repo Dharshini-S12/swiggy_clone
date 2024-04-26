@@ -4,7 +4,6 @@ function Body() {
   
   return (
     <div className='body-container'>
-      
        <hr className='horizontal-tag1'></hr>
       <h1 className='body-title-2'>Restaurants with online food delivery in Coimbatore</h1>
        <div className='body-button'>

@@ -520,6 +520,14 @@ div{
     display: none;
   }
   /* Foodcards-end */
+
+
+  /*items start*/
+  .body-container{
+    display: flex;
+    flex-direction: column;
+  }
+  /*items end*/
 }
 
 
